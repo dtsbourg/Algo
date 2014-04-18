@@ -1,4 +1,4 @@
-function decrypt(str, key) {
+function rotate(str, key) {
 	var result = "";
 	for (var i = 0; i < str.length; i++) {
 		var c = str.charCodeAt(i);
@@ -15,4 +15,4 @@ function mod(x, y) {
 }
 
 
-decrypt(4,"Hi my name is Dylan");
+rotate(4,"Hi my name is Dylan");
